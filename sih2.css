@@ -1,0 +1,138 @@
+*{
+    margin: 0px;
+    padding: 0px;
+}
+.hero{
+    height: 100vh;
+    width: 100%;
+    background-color: rgb(23, 100, 163);
+}
+.navbar{
+    display: flex;
+    justify-content: space-between;
+    height: 70px;
+    background-color: white;
+    margin: 0px;
+    align-items: center;
+}
+.navbar div a{
+    text-decoration: none;
+    color: rgb(12, 2, 2);
+    font-size: x-large;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 584;
+    font-style: normal;
+}
+.navbar div{
+    margin: 30px;  
+}
+.d2{
+    display: flex;
+}
+.d1{ 
+    font-weight: bolder;
+    font-size: 40px;
+    color: rgb(73, 42, 3);
+}
+.d3{
+    background-color: rgb(113, 158, 176);
+    text-decoration: none;
+    width: 200px;
+    height: 30px;
+    text-align: center;
+    align-items: center;
+    padding: 10px;
+    border-radius: 20px;
+}
+.d3 a{
+    color: white;
+}
+.d4 img{
+    height: 50px;
+    border-radius: 20px;
+}
+.a2{
+    margin-left: 924px;
+    margin-top: 75px;
+    width: 600px;
+    overflow: hidden;
+}
+.a2 div img{
+    height: 400px;
+    width: 600px;
+}
+.a2 article {
+    display: flex;
+    border: 2px solid green;
+    animation-name: slider;
+    animation-duration: 3s;
+    animation-iteration-count: infinite;
+    animation-direction: normal;
+}
+
+@keyframes slider {
+    0%{
+        transition: 1s;
+        margin-right: 0px;
+    }
+
+    33%{
+        transition: 1s;
+          margin-left: 0px;
+    }
+
+    34%{
+        transition: 1s;
+        margin-left: -600px;
+    }
+    66%{
+        transition: 1s;
+        margin-left: -600px;
+    }
+    67%{
+        transition: 1s;
+        margin-left: -1200px;
+    }
+    100%{
+        transition: 1s;
+        margin-left: -1200px;
+    }
+}
+.a3{
+    margin-top: -350px;
+    margin-left: 20px;
+    font-family: "Montserrat", system-ui;
+    font-optical-sizing: auto;
+    font-weight: 584;
+    font-style: normal;
+}
+.h{
+    font-size: 58px;
+    color:aliceblue;
+    margin-bottom: 20px;
+    font-weight: 100px;
+    text-decoration: underline;
+}
+.sub{
+    color: aqua;
+    font-size: 30px;
+    margin-left: 200px;
+}
+.hero_article4_div4{
+    position: absolute;
+    top: 450px;
+    left: 280px;
+    height: 50px;
+    width: 200px;
+    background-color: rgb(223, 220, 225);
+    padding-top: 20px;
+    border-radius: 30px;
+}
+.hero_article4_div4 a{
+    font-weight: 520;
+    font-size: 25px;
+    color: rgb(37, 16, 143);
+    text-decoration: none;
+    padding: 25px;
+}
